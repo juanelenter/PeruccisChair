@@ -82,10 +82,10 @@ void act_volts( ) { // This could be more efficient only substracting last and a
   analogWrite((int)pwm_pin_i, abs(avg_i));
   
   if (avg_d >= 0) {
-    digitalWrite(dir_pin_d, HIGH);
+    digitalWrite(dir_pin_d, LOW);
     }
   else {
-    digitalWrite(dir_pin_d, LOW);
+    digitalWrite(dir_pin_d, HIGH);
   }
   analogWrite((int)pwm_pin_d, abs(avg_d));
  
