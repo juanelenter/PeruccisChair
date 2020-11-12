@@ -5,8 +5,8 @@
 // I/O
 #define joyX A0
 #define joyY A1
-#define dir_pin_i 24
-#define dir_pin_d 22
+#define dir_pin_i 46
+#define dir_pin_d 44
 #define pwm_pin_i 8
 #define pwm_pin_d 6
 
